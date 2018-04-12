@@ -1,10 +1,15 @@
+#from flask import Flask, request
+#from logging.handlers import RotatingFileHandler
+
+#from flask.ext.redis import FlaskRedis
+
+import logging
 from flask import Flask, request
 from logging.handlers import RotatingFileHandler
 
 from flask.ext.redis import FlaskRedis
 
-import logging
-import datetime
+#import datetime
 
 #Create the App
 app = Flask(__name__)
