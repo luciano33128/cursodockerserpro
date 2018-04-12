@@ -4,7 +4,7 @@ services:
     image: oficina-docker:aula2-volumes
     build: .
     ports:
-     - 5010:5000
+     - 5020:5000
     volumes:
      - .:/usr/src
      - aula2-logs:/tmp
